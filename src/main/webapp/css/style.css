@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f2f5f9;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    width: 100%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.logo {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* ===== TABLE DISPLAY ===== */
+h1 {
+    text-align: center;
+    margin: 10px 0;
+    color: #2c3e50;
+}
+
+.table-box {
+    width: 90%;
+    margin: 10px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f3ff;
+}
+
+/* Buttons */
+.btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn-edit { background: #27ae60; }
+.btn-delete { background: #e74c3c; }
+
+.btn:hover { opacity: 0.85; }
+
+/* ===== REGISTER / LOGIN FORM ===== */
+.center-page {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    width: 350px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.form-box h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.form-box input,
+.form-box select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 10px;
+    background: #667eea;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    opacity: 0.9;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    width: 100%;
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 8 px;
+}
+
+.footer span {
+    color: #f1c40f;
+    font-weight: bold;
+}
+
